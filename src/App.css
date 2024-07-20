@@ -1,0 +1,122 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: rem;
+  text-align: center;
+  color: black;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.bouton1{
+  background-color: green;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px black white;
+  color: white; 
+  margin: 10px 10px 10px 10px;
+  
+}
+
+.bouton2{
+  background-color: red;
+  font-weight: bold;
+  font-size: 21px;
+  border: 1px black white;
+  color: white; 
+  margin: 10px 10px 10px 10px;
+}
+
+.bouton1:hover {
+  background-color: white;
+  color: green;
+  border: 1px green solid;
+  }
+
+.bouton2:hover {
+  background-color: white;
+  color: red;
+  border: 1px red solid;
+  }
+
+
+
+.liste{
+  margin-top: 100px;
+}
+
+.ulliste{
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+  margin: 10px 0 0 10px;
+  width: 120px;
+}
+
+.delete{
+  background-color: red;
+  font-size: 12px;
+  font-weight: bold;
+  float: right;
+  color: white;
+  border: 1px red none;
+}
+
+.delete:hover {
+  background-color: white;
+  color: red;
+  border: 1px red solid;
+}
+
+.input{
+  float: left;
+  color: black;
+  font-weight: 600;
+  width: 300px;
+  background-color: #88888810;
+  padding:  12px 10px 10px 12px; 
+  margin:  30px 10px 10px 50px;
+  border: 2px green solid;
+  border-radius: 10px  10px 10px 10px;
+}
+
+.sudmit{
+  margin:  30px 10px 10px -380px;
+  background-color: green;
+  box-shadow: 0px 0px 2px 2px #88888865;
+
+}
